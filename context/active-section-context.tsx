@@ -29,7 +29,7 @@ const ActiveSectionContextProvider = ({
 }: ActiveSectionContextProviderProps) => {
   const [activeSection, setActiveSection] = useState<SectionName>('Home');
   const [timeOfLastClicked, setTimeOfLastClicked] = useState(0);
-  const [active, setIsActive] = useState<boolean>(false);
+  const [active, setIsActive] = useState<boolean>(true);
   return (
     <ActiveSectionContext.Provider
       value={{
