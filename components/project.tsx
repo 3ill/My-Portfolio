@@ -62,7 +62,7 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
       </section>
       {/**Mobile Projects view */}
       <section className="flex flex-col gap-[10px] md:hidden">
-        <div className=" border-white border-opacity-40 bg-gray-400 bg-opacity-80 shadow-lg shadow-black/[0.03]  w-[300px] h-[350px] rounded-[9px] dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 flex flex-col items-center hover:scale-110 active:scale-105 transition-all">
+        <div className=" border-white border-opacity-40 bg-gray-400 bg-opacity-80 shadow-lg shadow-black/[0.03]  w-[300px] h-[370px] rounded-[9px] dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 flex flex-col items-center hover:scale-110 active:scale-105 transition-all">
           <div className="flex justify-center gap-5 pt-5">
             <BsFolder2Open className="w-[50px] h-[50px]" />
             <h3 className=" font-satoshi font-bold text-gray-950 dark:text-gray-200 text-[30px]">
