@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import SectionHeading from './section-heading';
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
+import StarCanvas from './stars';
 
 const About = () => {
   const { ref } = useSectionInView('About');
@@ -19,6 +20,7 @@ const About = () => {
       className="mb-28 max-w-[45rem] text-center leading-8 scroll-mt-28"
     >
       <SectionHeading>About me</SectionHeading>
+
       <p className="mb-3 font-satoshi max-sm:text-[17px] font-medium max-sm:p-3 ">
         After earning my degree in{' '}
         <span className="font-semibold">Computer Science</span>, I embarked on a
